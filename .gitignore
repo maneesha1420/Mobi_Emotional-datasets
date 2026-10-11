@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Generated dataset outputs
+organized_dataset/
+organized_dataset_original/
+exports/
+duration_adjustment_logs/
+*.zip
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.m4v
+*.webm
+*.3gp
+*.mts
+
+# Local execution artifacts
+processing_records.json
+adjusted_processing_records.json
+adjustment_summary.json
+padding_verification.json
+verification_report.json
+preparation_state.json
